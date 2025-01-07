@@ -32,6 +32,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 nav{
     display: flex;
     align-items: center;
@@ -55,6 +58,25 @@ nav ul li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+/* main ar title */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+/* main-style */
+main{
+max-width: 1140px;
+margin: 0 auto;
 }
 
 /* banner styles */
@@ -81,4 +103,19 @@ nav ul{
 }
 .banner-profile-picture{
     width: 580px;
+}
+
+/* about style */
+.About{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-iteams{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-description{
+    font-weight: 600;
 }
